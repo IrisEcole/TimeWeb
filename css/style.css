@@ -1,3 +1,6 @@
+html{
+    min-height: 100%;
+}
 body{
     background: linear-gradient( #fffde4, #005aa7);
     font-family: 'Times New Roman', Times, serif
