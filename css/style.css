@@ -1,11 +1,13 @@
-html{
+html {
     min-height: 100%;
 }
-body{
-    background: linear-gradient( #fffde4, #005aa7);
+
+body {
+    background: linear-gradient(#fffde4, #005aa7);
     font-family: 'Times New Roman', Times, serif
 }
-header{
+
+header {
     text-align: center;
     font-size: 30;
     color: #005aa7;
@@ -19,14 +21,16 @@ header{
     margin: auto;
     border-radius: 20Px;
     position: relative;
-    top:0%;
+    top: 0%;
     bottom: 0%;
 }
-.image img{
+
+.image img {
     position: relative;
-    top:0%;
+    top: 0%;
     bottom: 0%;
 }
+
 .overlay_1 {
     opacity: 0%;
     position: absolute;
@@ -57,77 +61,78 @@ header{
     background-color: transparent;
 }
 
-.overlay_1:hover{
+.overlay_1:hover {
     opacity: 100%;
 }
 
-.overlay_2:hover{
+.overlay_2:hover {
     opacity: 100%;
 }
 
-.overlay_3:hover{
+.overlay_3:hover {
     opacity: 100%;
 }
 
-#intro img{
+#intro img {
     width: 30%;
 }
 
-#intro .container{
+#intro .container {
     background-color: #1f5d93;
 }
 
-#morning .container{
+#morning .container {
     background-color: #3289d5;
 }
 
-#afternoon .container{
+#afternoon .container {
     background-color: #89b6de;
 }
 
 
-#night .container{
+#night .container {
     background-color: #ebeed3;
 }
 
-.container img{
-        width: 85%;
-        padding: 10px;
-        border-radius: 20Px;
+.container img {
+    width: 85%;
+    padding: 10px;
+    border-radius: 20Px;
 }
 
-.container h1{
+.container h1 {
     padding-top: 10px;
     color: aliceblue;
 }
 
-#nav_bar{
-    background-color:rgb(56, 125, 194);
+#nav_bar {
+    background-color: rgb(56, 125, 194);
     position: sticky;
-    top:0px;
+    top: 0px;
     border-radius: 10px;
 }
 
-#nav_bar ul{
-     
+#nav_bar ul {
+
     padding: 10px;
     list-style: none;
-} 
-#nav_bar li{
+}
+
+#nav_bar li {
     display: inline;
 }
 
-#nav_bar li:first-child > a{
+#nav_bar li:first-child>a {
     font-size: 24px;
 }
 
-#nav_bar a{
+#nav_bar a {
     color: aliceblue;
     text-decoration: none;
     font-size: 19px;
     padding-right: 15px;
 }
 
-#nav_bar a:hover{
+#nav_bar a:hover {
     color: rgb(103, 184, 255);
 }
